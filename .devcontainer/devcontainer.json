@@ -4,6 +4,10 @@
     "context": "..",
     "dockerfile": "Dockerfile"
   },
+  "runArgs": [
+    "--shm-size=2g",
+    "--gpus", "all"
+  ],
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
   },
